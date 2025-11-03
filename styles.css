@@ -1,0 +1,114 @@
+/* Baby Blue & White Portfolio Theme */
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f8fbff; /* soft white-blue */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #a0e9ff, #89c2ff);
+  color: #fff;
+  text-align: center;
+  padding: 3em 1em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+  letter-spacing: 1px;
+}
+
+header.tagline {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #f4faff;
+}
+
+/* Sections */
+section {
+  background: #ffffff;
+  margin: 20px auto;
+  padding: 25px;
+  max-width: 850px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: #4da6ff;
+  border-bottom: 2px solid #a0e9ff;
+  padding-bottom: 5px;
+}
+
+/* Project Section */
+.project {
+  background: #f0f8ff;
+  border-left: 5px solid #4da6ff;
+  padding: 10px 15px:;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease; 
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#skills ul li {
+  background: #e0f3ff;
+  display: inline-block;
+  margin: 6px;
+  padding: 8px 15px;
+  border-radius: 25px;
+  color: #004c91;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#skills ul li:hover {
+  background: #b6e4ff;
+  transform: scale(1.05);
+}
+
+/* Achievements */
+#awards ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#awards li::before {
+  content: "🏆 ";
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #a0e9ff;
+  color: #004c91;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 0.95em;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
+
+a {
+  color: #004c91;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
